@@ -26,5 +26,5 @@ BFGS is an iterative method that aims to find the optimal solution by approximat
 
 The advantage of BFGS over other optimization algorithms, such as gradient descent, is that it can converge more quickly by approximating the curvature of the objective function. However, BFGS requires more memory as it needs to store and update the estimate of the Hessian matrix.
 
-### Finaly
+### Finally
 Choosing the appropriate optimization algorithm depends on factors such as the problem complexity, available data, and desired convergence speed. It is essential to experiment and tune these algorithms to achieve optimal performance for specific machine learning tasks.
