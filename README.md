@@ -21,7 +21,7 @@ Addresses the issue of diminishing learning rates in AdaGrad by introducing an e
 ### Adam (Adaptive Moment Estimation)
 Combines the benefits of momentum-based GD and RMSProp. It maintains both a decaying average of past gradients (like momentum) and a decaying average of past squared gradients (like RMSProp). Adam adapts the learning rate for each parameter and provides good performance across a wide range of optimization problems.
 
-## BFGS
+### BFGS
 BFGS is an iterative method that aims to find the optimal solution by approximating the Hessian matrix (the matrix of second partial derivatives) of the objective function. Instead of directly computing the Hessian, BFGS constructs an estimate of the Hessian using gradient information and updates this estimate at each iteration. By iteratively updating the estimate of the Hessian, BFGS efficiently converges towards the optimum.
 
 The advantage of BFGS over other optimization algorithms, such as gradient descent, is that it can converge more quickly by approximating the curvature of the objective function. However, BFGS requires more memory as it needs to store and update the estimate of the Hessian matrix.
